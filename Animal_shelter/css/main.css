@@ -83,3 +83,110 @@ h1{
     flex-direction: column;
 
 }
+
+
+/* Андрей начал тут :) */
+
+
+/* Секция HELP */
+
+.banner {
+    font-family: 'Georgia', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+.wrapper-help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.help-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1050px;
+}
+
+.icon-text {
+    font-family:'Georgia', regular;
+    font-size: 20px;
+    margin: 40px 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-text > img {
+    margin-bottom: 26px;
+}
+
+/* Секция DONATION */
+
+.wrapper-donation {
+    display: flex;
+    align-items: center;
+    padding: 65px;
+}
+
+.donation {
+    background-color: #f6f6f6;
+}
+
+.banner-donation {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.puppy-donation {
+    width: 534px;
+    height: 309px;
+}
+
+.donation-text {
+    display: flex;
+    flex-direction: column;
+    color: #b2b2b2;
+}
+
+.bank-name {
+    margin-bottom: 10px;
+}
+
+.card-area {
+    width: 319px;
+    height: 47px;
+    background-color: #b2b2b2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#credit-card {
+    width: 248px;
+    background-color: #b2b2b2;
+    border: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"]:focus-visible {
+    outline: 2px solid white;
+}
+
+.donat-description {
+    line-height: 18px;
+}
