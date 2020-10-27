@@ -96,6 +96,7 @@ h1{
     text-align: center;
     line-height: 45px;
     margin-bottom: 40px;
+    letter-spacing: 5px;
 }
 
 .wrapper-help {
@@ -133,6 +134,7 @@ h1{
     display: flex;
     align-items: center;
     padding: 65px;
+    flex-wrap: wrap;
 }
 
 .donation {
@@ -157,6 +159,8 @@ h1{
 
 .bank-name {
     margin-bottom: 10px;
+    font-family: Georgia, regular;
+    font-size: 15px;
 }
 
 .card-area {
@@ -189,4 +193,54 @@ input[type="number"]:focus-visible {
 
 .donat-description {
     line-height: 18px;
+    font-family: 'Arial', italic;
+    font-size: 12px;
+    max-width: 387px;
+    text-wrap: wrap;
+}
+
+
+/* Секция FOOTER */
+
+.footer {
+    background-image: linear-gradient(90deg, #423227 70%, black);
+}
+
+.wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: wrap;
+    padding: 40px 40px 0;
+}
+
+.puppy-footer {
+    width: 300px;
+    height: 317px;
+}
+
+.banner-footer {
+    text-align: left;
+    color: white;
+    line-height: 45px;
+}
+
+.footer-contacts,
+.location {
+    margin-top: 25px;
+}
+
+.email,
+.phone,
+.location-info {
+    display: flex;
+    align-items: center;
+    color: #F1CDB3;
+    margin-bottom: 20px;
+}
+
+.email > img,
+.phone > img,
+.location-info > img {
+    margin-right: 15px;
 }
