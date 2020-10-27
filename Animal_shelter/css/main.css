@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     padding: 0;
     margin: 0;
@@ -10,11 +13,73 @@ body{
 }
 .container{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 header{
-    background: solid gray ;
+    background: black url(../img/Clip.png) no-repeat;
+    color: white;
+    border: 2px solid yellow;
+    height: 925px;
+}
+#logoname{
+    color: #F1CDB3;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 32;
+    font-weight: 400;
+}
+#logotext{
+    font-size: 13;
+}
+.navigation{
+    padding-top: 75px;
+}
+.topnav{
+    display: flex;
+    flex-direction: row;
+}
+.link-hover-center a{
+    margin-left: 40px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    
+}
+.link-hover-center a:after {
+    display: block;
+    content: "";
+    background-color: #F1CDB3;
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    top: 24px; 
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.link-hover-center a:hover:after,
+.link-hover-center a:focus:after {
+    width: 100%;
 }
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 32;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 44;
+    font-weight: 300;
+    letter-spacing: 4px;
+
+}
+.text-about{
+    display: flex;
+    flex-direction: column;
+
 }
