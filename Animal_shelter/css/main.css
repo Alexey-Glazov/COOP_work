@@ -16,20 +16,28 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+/*тут начинается хедер*/
+
 header{
     background: black url(../img/Clip.png) no-repeat;
     color: white;
-    border: 2px solid yellow;
     height: 925px;
+}
+.headtext{
+    margin-top: 53px;
 }
 #logoname{
     color: #F1CDB3;
     font-family: Georgia, 'Times New Roman', Times, serif ;
-    font-size: 32;
+    font-size: 42px;
     font-weight: 400;
+    margin-bottom: 7px;
+    padding-bottom: 0;
 }
 #logotext{
-    font-size: 13;
+    font-size: 17px;
+    margin: 0;
 }
 .navigation{
     padding-top: 75px;
@@ -38,12 +46,16 @@ header{
     display: flex;
     flex-direction: row;
 }
+
+/*стилизация пунктов навигации*/
+
 .link-hover-center a{
     margin-left: 40px;
     padding-bottom: 5px;
     text-align: center;
     text-decoration: none;
     color: white;
+    font-size: 17px;
     display: flex;
     line-height: 1;
     text-decoration: none;
@@ -71,16 +83,23 @@ header{
 .link-hover-center a:focus:after {
     width: 100%;
 }
+
+/* текст хедера */
+
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif ;
-    font-size: 44;
+    font-size: 58px;
     font-weight: 300;
-    letter-spacing: 4px;
-
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
 }
 .text-about{
     display: flex;
     flex-direction: column;
+    margin-top: 200px;
+    font-size: 20px;
+    color: #CDCDCD;
 
 }
 
